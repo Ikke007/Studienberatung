@@ -7,9 +7,8 @@ public class Studienberatung{
 		String input = scanner.next();
 		if (input.equalsIgnoreCase("j")){
 			System.out.println("Bist du wissbegierig?");
-		}
-		else{
-			
+		else if(input.equalsIgnoreCase("n")){
+			System.out.println("Hast du Fachabitur?");
 		}
 	}
 }
